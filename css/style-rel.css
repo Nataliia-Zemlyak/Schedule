@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px; 
+}
+
+table {
+    margin: 20px 0;
+    border-radius: 3px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #cdcddd;
+}
+td {
+    
+    padding: 8.5px 20px;
+    text-align: center;
+}
+ .table-schedule th {
+     padding: 10px 20px;
+     text-align: center;
+    font-size: 14px;
+    color: black;
+    background-color:antiquewhite;
+    font-weight: 700;
+    border: 1px solid #cdcddd;
+ }
+thead td {
+    background-color:antiquewhite;
+    border: 1px solid #cdcddd;
+}
+ tbody td {
+    font-size: 14px;
+    border: 1px solid #cdcddd;
+    background-color: #f2f2f2;
+    
+} 
+.select option:first-child {
+    display: none;
+}
